@@ -1,0 +1,144 @@
+/* 
+Author: Paul Simon Lilan 
+ADM: DSE-01-0170/2010
+Zetech University TRC
+This is the Style sheet for Pie.HTML which contains the CSS Code for the RECIPE page
+*/
+
+/* html {
+  font-size: 62.5%;
+}*/
+
+* {
+  margin: 0px;
+  padding: 3px 0px 3px 0px;
+  box-sizing: border-box;
+}
+
+/*Main body styling*/
+
+#body {
+  background-color: white;
+  color: rgb(64, 64, 64);
+  font-size: 11pt;
+  font-family: serif;
+}
+
+/*Titles Styling*/
+
+#main_title {
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  font-family: "Lucida Sans Unicode";
+  font-size: 22pt;
+  text-align: center;
+  letter-spacing: 0.25em;
+}
+
+#ingredients_title {
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  font-family: Lucida Sans;
+  font-size: 18pt;
+  letter-spacing: 0.25em;
+  padding-left: 20px;
+}
+#directions_title {
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  font-family: Lucida Sans;
+  letter-spacing: 0.25em;
+  padding-left: 20px;
+}
+
+#comments_title {
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  font-family: Lucida Sans;
+  letter-spacing: 0.25em;
+  padding-left: 20px;
+}
+#links_title {
+  background-color: rgb(240, 240, 240);
+  color: rgb(164, 164, 0);
+  font-family: Lucida Sans;
+  letter-spacing: 0.25em;
+  padding-left: 20px;
+  margin-bottom: 1rem;
+}
+
+/*----------------*/
+#pie_image {
+  padding-left: 20px;
+}
+
+#pie_description {
+  padding-left: 20px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  list-style: none;
+}
+
+/*Lists Styling*/
+
+#ingredients_list {
+  list-style-image: url(../Resourses/pie_icon.gif);
+  padding-left: 6rem;
+}
+#directions_list {
+  padding-left: 5rem;
+  list-style: decimal;
+}
+#directions_list_2 {
+  padding-left: 5rem;
+  list-style-image: url(../Resourses/pie_icon.gif);
+}
+#directions_list_3 {
+  padding-left: 5rem;
+  list-style-image: url(../Resourses/pie_icon.gif);
+}
+#cake_pie {
+  padding-left: 20px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/*Comments Styling*/
+#comments {
+  display: inline-block;
+  margin-left: 8rem;
+}
+
+#box1 {
+  background-color: rgb(255, 255, 168);
+  margin: 1rem 0rem;
+  padding: 1rem 6rem 1rem 1rem;
+}
+#box2 {
+  background-color: rgb(255, 255, 168);
+  margin: 1rem 0rem;
+  padding: 1rem 6rem 1rem 1rem;
+}
+#box3 {
+  background-color: rgb(255, 255, 168);
+  margin: 1rem 0rem;
+  padding: 1rem 6rem 1rem 1rem;
+}
+
+/*Links Styling*/
+
+#footer_text {
+  display: block;
+  font-family: monospace;
+  padding-left: 30px;
+}
+
+#search {
+  color: rgb(164, 164, 0);
+  padding-left: 30px;
+  padding-bottom: 1rem;
+}
+#home {
+  color: rgb(164, 164, 0);
+  padding-left: 30px;
+}

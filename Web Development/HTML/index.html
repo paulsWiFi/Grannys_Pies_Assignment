@@ -1,0 +1,63 @@
+<!--
+Author: Paul Simon Lilan 
+ADM: DSE-01-0170/2010
+Zetech University TRC
+This is the HTML sheet for the index it contains the HTML Code for the HOME page
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Granny's Pies</title>
+    <meta
+      name="description"
+      content=" PIES! PIES! PIES! Granny's Pies, for the best Pies, Since 1999"
+    />
+
+    <!--character encoding-->
+
+    <meta charset="utf-8" />
+
+    <!--Pie icon on the tab-->
+
+    <link rel="icon" href="../Resourses/pauls-pie-icon.png" />
+
+    <!--Device Width Scaling-->
+
+    <meta name="viewport" content="width=device-width initial scale=0" />
+    <link rel="stylesheet" href="../CSS/index.css" />
+  </head>
+
+  <!--Code Starts Here-->
+
+  <body class="body">
+    <div id="background_image">
+      <div id="main_title">Grannys<br />Pies</div>
+      <h2 id="greatest_pies">For the greatest pie recipes</h2>
+
+      <!--button shortcut to recipe page-->
+
+      <form class="recipe_button" target="_blank" action="pie.html">
+        <button id="recipe_button"><strong>OUR RECIPES</strong></button>
+      </form>
+
+      <!--User email subscription-->
+
+      <form class="submit_email" name="userdetails">
+        <p id="email_submit_text">
+          For our monthly top pie picks send us your email
+        </p>
+        <label for="email_input" id="email_text">email</label>
+        <input
+          id="email_input"
+          type="email"
+          required
+          minlength="5"
+          placeholder="Your email here"
+          autocomplete="on"
+        />
+        <button id="submit_button" type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </body>
+</html>
